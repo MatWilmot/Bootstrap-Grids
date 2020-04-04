@@ -1,0 +1,19 @@
+body {
+  padding-top: 20px;
+}
+
+.container h3 {
+  margin-top: 20px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+/* target all classes that start with "col-" */
+[class*="col-"] {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: cornsilk;
+  border: 1px solid black;
+}
